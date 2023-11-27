@@ -1,0 +1,73 @@
+.transaction-history-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .input-area {
+    padding: 20px;
+  }
+  
+  .transaction-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    margin-bottom: 15px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for the Field component should go here. */
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .transaction-history-container {
+      padding: 10px;
+    }
+    
+    .button-container {
+      flex-direction: column;
+    }
+    
+    .submit-button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
